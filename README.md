@@ -11,7 +11,7 @@ None.
 Role Variables
 --------------
 
-None.
+    kitchen_version: 1.13.0
 
 Dependencies
 ------------

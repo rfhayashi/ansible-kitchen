@@ -1,2 +1,6 @@
 ---
-# tasks file for ansible-kitchen
+- name: installs ruby
+  yum: name=ruby
+
+- name: installs test-kitchen
+  gem: name=test-kitchen version={{ kitchen_version }} user_install=no
