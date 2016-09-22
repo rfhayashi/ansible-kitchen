@@ -20,6 +20,10 @@ Vagrant.configure('2') do |config|
     a.version = '2.1.1.0'
     a.sudo = true
     a.playbook = 'vagrant.yml'
+    a.galaxy_role_file = 'requirements.yml'
     a.verbose = 'vv'
+    a.extra_vars = {
+        registry_address: "#{subnet}.1:5000"
+    }
   end
 end

@@ -7,3 +7,6 @@
 
 - name: installs kitchen ansible
   gem: name=kitchen-ansible version={{ kitchen_ansible_version }} user_install=no
+
+- name: installs kitchen docker
+  gem: name=kitchen-docker version={{ kitchen_docker_version }} user_install=no

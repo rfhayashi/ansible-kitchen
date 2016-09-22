@@ -1,3 +1,4 @@
 - hosts: all
   roles:
+    - rfhayashi.docker-vagrant
     - vagrant
