@@ -2,11 +2,11 @@
 
 ## [Unreleased] ##
 
-## [0.2.1] ##
+## [0.2.1] - 2016-09-23 ##
 
   - Bug fix: wrong ubuntu version on meta/main.yml
 
-## [0.2] ##
+## [0.2] - 2016-09-23 ##
 
   - Support for Ubuntu 14.04
 
