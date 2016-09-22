@@ -2,6 +2,8 @@
 
 ## [Unreleased] ##
 
+  - Support for Ubuntu 12.04
+
 ## [0.1] - 2016-09-21 ##
 
 ### Added ###
