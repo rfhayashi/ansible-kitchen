@@ -4,3 +4,6 @@
 
 - name: installs test-kitchen
   gem: name=test-kitchen version={{ kitchen_version }} user_install=no
+
+- name: installs kitchen ansible
+  gem: name=kitchen-ansible version={{ kitchen_ansible_version }} user_install=no
