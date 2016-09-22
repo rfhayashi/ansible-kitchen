@@ -1,0 +1,11 @@
+- name: installs ruby on centos
+  yum: name=ruby
+
+- name: installs test-kitchen
+  gem: name=test-kitchen version={{ kitchen_version }} user_install=no
+
+- name: installs kitchen ansible
+  gem: name=kitchen-ansible version={{ kitchen_ansible_version }} user_install=no
+
+- name: installs kitchen docker
+  gem: name=kitchen-docker version={{ kitchen_docker_version }} user_install=no

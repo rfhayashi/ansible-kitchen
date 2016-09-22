@@ -1,0 +1,9 @@
+---
+- name: installs chefdk
+  apt: deb=https://packages.chef.io/stable/ubuntu/12.04/chefdk_0.17.17-1_amd64.deb
+
+- name: installs kitchen ansible
+  command: chef gem install kitchen-ansible --version={{ kitchen_ansible_version }}
+
+- name: installs kitchen docker
+  command: chef gem install kitchen-docker --version={{ kitchen_docker_version }}

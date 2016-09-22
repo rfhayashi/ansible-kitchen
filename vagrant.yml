@@ -1,4 +1,4 @@
 - hosts: all
   roles:
     - rfhayashi.docker-vagrant
-    - vagrant
+    - rfhayashi.kitchen

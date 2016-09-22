@@ -2,3 +2,7 @@
 *.iml
 .vagrant
 roles
+roles.kitchen/
+.kitchen.local.yml
+.kitchen
+Dockerfile-kitchen*
